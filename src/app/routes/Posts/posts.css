@@ -1,0 +1,111 @@
+
+
+/* Assuming you have a CSS file or CSS module linked to this component */
+
+.contentContainer {
+  max-width: 80%; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  margin-top: 2em;;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  height: auto;
+  flex: 1;
+}
+
+.jobFeed {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.CustomFooter {
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .jobFeed {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+}
+
+.MainContainer {
+  min-height: 100vh;
+}
+
+
+
+.jobPostImage {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.jobPostDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobPostTitle {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.jobPostDescription {
+  font-size: 1rem;
+}
+
+.addJobButton {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.addJobButton button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 2em;
+  margin-top: 2em ;
+}
+
+.addJobButton button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.login-message {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 400px;
+  font-size: large;
+}
+
+.login-message p {
+  margin-bottom: 10px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.login-message button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  font-weight: bold;
+}
+
+.login-message button:hover {
+  background-color: #0056b3;
+}

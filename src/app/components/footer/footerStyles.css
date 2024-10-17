@@ -1,0 +1,133 @@
+.f_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-height: 10vh; /* Adjusted height for better responsiveness */
+}
+
+.f_logo a {
+  text-decoration: none;
+}
+
+.logoImg {
+  width: 100px;
+  height: 100px;
+}
+
+.f_logo-text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  padding: 20px;
+}
+
+.f_logo-text h1 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid white;
+  font-size: 2.8vw;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.f_logo-text h3 {
+  font-size: 0.75em;
+  margin: auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.container-fluid {
+  background-color: #2d3250;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-weight: bold;
+}
+
+.contact {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.contact span {
+  display: block;
+  padding: 8px;
+}
+
+.f_links {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.f_links a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.6;
+  transition: 0.3s;
+  padding: 3px 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.f_links a:hover {
+  color: blue;
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .f_logo-text h1 {
+    font-size: 5vw;
+  }
+
+  .f_logo-text h3 {
+    font-size: 8px; /* Corrected class name and adjusted font size */
+  }
+
+  .container-fluid {
+    display: block; /* Change to block to stack elements in rows */
+  }
+
+
+  .f_logo,
+  .social-icons,
+  .f_links {
+    margin-top: 20px;
+    text-align: center; /* Align child elements in the center */
+  }
+
+  .social-icons a {
+    margin: 10px; /* Adjust margin for space between icons */
+  }
+}
+
+
+
+
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Align icons in the middle horizontally */
+  align-items: center; /* Align icons in the middle vertically */
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.6;
+  transition: 0.3s;
+  margin: 0 10px; /* Add margin for space between icons */
+  font-size: 40px; /* Adjust icon size */
+}
+
+.social-icons a:hover {
+  color: blue;
+  opacity: 1;
+}

@@ -1,0 +1,68 @@
+.img-container {
+  flex-basis: calc(33.3333% - 20px);
+  margin-bottom: 20px;
+  padding: 10px; /* Adjusted padding for better spacing on smaller screens */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-sizing: border-box;
+  height: 40vh;
+  transition: transform 0.3s ease;
+}
+
+.img-container img {
+  width: 100%;
+  height: 85%;
+}
+
+.convo-label{
+  display: block;
+  padding: 10px; /* Add margin top for space between image and link */
+  text-decoration: none;
+  font-size: 1em; /* Set font size */
+  font-weight: bold; /* Set font weight */
+  color: #333; /* Set link color */
+  transition: color 0.3s ease; /* Add smooth transition for color change */
+}
+
+.convo-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 1em; /* Adjusted padding for better spacing on smaller screens */
+  width: 90%; /* Adjusted width for better responsiveness */
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 850px) {
+  .img-container {
+    flex-basis: calc(50% - 10px);
+  }
+  
+  .convo-container {
+    width: 95%; /* Adjusted width for better responsiveness on tablets */
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .img-container {
+    flex-basis: calc(100% - 20px);  
+  }
+
+  
+  .convo-container {
+    width: 100%; /* Full width on smaller screens */
+    /* Adjusted padding for better spacing on smaller screens */
+  }
+  
+  .convo-label {
+    font-size: 1em; /* Adjusted font size for better readability on smaller screens */
+  }
+}
+
+.img-container:hover{
+  transform: scale(1.1);
+}

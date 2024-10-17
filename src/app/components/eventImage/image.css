@@ -1,0 +1,12 @@
+.event_img{
+    width: 48vw;
+    height: 300px;
+}
+
+.secondrow{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}

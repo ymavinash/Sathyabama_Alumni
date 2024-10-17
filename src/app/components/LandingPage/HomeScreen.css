@@ -1,0 +1,29 @@
+.Slideshow {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    /* background-color: black; */
+    /* height: 500px; */
+  }
+  
+  /* .CarouselContainer {
+    width: 80%;
+    height: 100%;
+  }
+  
+  .CarouselItem img {
+    width: 100%;
+    height: 100%;
+  } */
+  /* @media screen and (max-width: 750px) {
+    .CarouselContainer{
+        width: 90%;
+    }
+    .Slideshow{
+        height:200px;
+    }
+  
+  } */

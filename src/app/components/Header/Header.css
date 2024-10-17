@@ -1,0 +1,101 @@
+/* Base styles */
+body {
+  margin: 0;
+  border-radius: 0;
+}
+
+.Header {
+  background-color: #656DA4;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.containerStyles {
+  background-color: #2D3250;
+  padding: 1em 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo {
+  width: max-content;
+}
+
+.buttonStyles {
+  background-color: #ffffff;
+  padding: 0.5em 1em;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 2rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #2D3250;
+}
+
+.buttonStyles:hover {
+  background-color: gray;
+  color: #2D3250;
+}
+
+/* Navigation bar styles */
+.topnav {
+  overflow: hidden;
+  background-color: #656DA4;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+}
+
+.topnav a {
+  flex: 1;
+  padding: 14px;
+  text-decoration: none;
+  color: #f2f2f2;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Responsive navigation bar */
+.topnav.responsive {
+  flex-direction: column;
+  width: 100%;
+}
+
+.menuButton {
+  background-color: #2D3250;
+  color: #f2f2f2;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  /* Show the menu button on smaller screens */
+  .menuButton {
+      display: block;
+  }
+
+  /* Hide the topnav initially */
+  .topnav {
+      display: none;
+  }
+
+  /* Display the topnav when in responsive mode */
+  .topnav.responsive {
+      display: flex;
+  }
+}

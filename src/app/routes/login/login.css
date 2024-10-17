@@ -1,0 +1,230 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D3250;
+    width: 100%;
+    height: 150px;
+  }
+
+  .sathyabama_logo{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .slogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D3250;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .slogoImg {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+
+  .logoImg {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+  }
+  
+  .logo-text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 20px;
+  }
+
+  .s-logo-text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 10px;
+  }
+
+  .s-logo-text h1{
+    margin-bottom: 5px;
+    border-bottom: 1px solid white;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight:bolder;
+    flex: 2;
+  }
+
+  .s-logo-text h4 {
+    font-size: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    margin: 2px;
+    flex: 1;
+  }
+
+  .logo-text h1{
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    font-size: 55px;
+    font-family: 'Inter', sans-serif;
+    font-weight:bolder;
+    flex: 2;
+  }
+  .logo-text h4{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    flex: 1;
+  }
+
+  .subtitle {
+    text-align: center;
+  }
+
+  .subtitle h3{
+    font-size: 1.1em;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+  }
+
+  .s-subtitle {
+    gap: 0px;
+    margin: 0px;
+  }
+
+  .s-logo-text h1{
+    font-size: 2.8vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+  }
+  .s-subtitle h3{
+    font-size: 0.75em;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+  }
+
+  
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loginContainer {
+      position: relative;
+      padding: 50px;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items:center;
+    justify-content: space-between;
+    border: 2px solid white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    gap: 30px;
+  }
+
+  .bg-img-container {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .label {
+    margin-bottom: 5px;
+    margin-left: 15px;
+    color: aliceblue;
+  }
+
+  .inputelement {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+
+  .input {
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .inputComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .button button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: #2D3250;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+  }
+
+  .button {
+    text-align: center;
+  }
+
+  .subtext {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    gap: 10px;
+  }
+
+  .subtext a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .subtext a:hover{
+    cursor: pointer;
+    color: blue;
+  }
+
+  .regi a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .regi a:hover{
+    cursor: pointer;
+    color: blue;
+  }

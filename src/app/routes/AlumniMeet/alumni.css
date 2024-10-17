@@ -1,0 +1,18 @@
+.content-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-top: 20px;
+    }
+    
+    /* Additional styles for h1 if needed */
+    .content-container h1 {
+      margin: 0;
+      text-align: center;
+      font-weight: bold;
+    }
+  
+    .text-container {
+      margin-bottom: 20px;
+    }
+    

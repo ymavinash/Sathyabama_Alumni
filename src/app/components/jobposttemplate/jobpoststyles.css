@@ -1,0 +1,63 @@
+.Bg {
+  color: grey;
+}
+.post {
+  background-color: #656da4;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  color: white;
+}
+
+.post span {
+  font-weight: bold;
+}
+
+.post h3 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.postDescription {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.postMail {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.postDate {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #40a2e3;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1b7bbd;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

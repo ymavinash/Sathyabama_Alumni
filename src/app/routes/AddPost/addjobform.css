@@ -1,0 +1,53 @@
+.addJobPostForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+  background: #ffffff;
+}
+
+.addJobPostForm h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.addJobPostForm form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.addJobPostForm form input[type="text"],
+.addJobPostForm form input[type="email"],
+.addJobPostForm form input[type="date"],
+.addJobPostForm form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addJobPostForm form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.addJobPostForm form button {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.addJobPostForm form button:hover {
+  background-color: #0056b3;
+}

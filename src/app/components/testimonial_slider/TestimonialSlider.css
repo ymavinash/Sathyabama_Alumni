@@ -1,0 +1,104 @@
+/* TestimonialSlider.css */
+.carousel-container {
+  margin: 0 auto; /* Center the carousel horizontally */
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  margin: 20px;
+  background-color: #656DA4;
+}
+
+.App{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+
+/* Style the arrow buttons to match the testimonial container */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px; /* Set a fixed width */
+  height: 100%; /* Match the height of the testimonial container */
+  background: none; /* Remove background */
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+}
+
+
+.image-container {
+  width: 50%; /* Adjust as needed */
+  margin: 20px;
+}
+
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  height: 300px;
+}
+
+.testimonial-content {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+
+.testimonial-image {
+  max-width: 50%; /* Adjust as needed */
+  width: 225px;
+  height: 225px;
+  border-radius: 25px;
+}
+
+.testimonial-quote {
+  max-width: 50%; /* Adjust as needed */
+  padding: 20px; /* Adjust spacing */
+}
+
+.testimonial-quote p {
+  font-style: italic;
+  color: white;
+  font-size: medium;
+}
+
+.testimonial-name {
+  display: block;
+  font-weight: bold;
+  font-size: small;
+}
+
+.testimonial-doctorate {
+  display: block;
+  font-size: small;
+}
+
+
+/* Optional: Hide the arrow buttons on extra small devices */
+@media (max-width: 576px) {
+  /* .carousel-control-prev,
+  .carousel-control-next, */
+  .image-container {
+    display: none;
+  }
+
+  .carousel-container{
+    width: auto;
+  }
+
+  .testimonial-image{
+    width: 50%;
+  }
+
+  .testimonial-quote p{
+    font-size: medium;
+  }
+}
+

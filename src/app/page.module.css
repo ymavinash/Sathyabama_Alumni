@@ -1,0 +1,23 @@
+.carousel-item img {
+  width: 100%;
+} 
+.headContainer {
+  width: max-content;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer{
+  width: 40%;
+  margin-top: 40px;
+}
+
+.img-fluid{
+  margin-top: 40px;
+  width: 40%;
+}

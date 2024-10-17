@@ -1,0 +1,43 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    text-align: center;
+    margin: 4em auto;
+    gap: 2em;
+    border: 2px solid black;
+    width: 40%;
+  }
+
+  .profile-container h2{
+    font-weight: bold;
+  }
+  
+  .profile-picture-container {
+    position: relative;
+    /* margin-bottom: 10px; */
+    /* border: 2px solid black; */
+    width: 75%;
+  }
+  
+  .profile-picture {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-picture-container.edit-mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-picture-container:not(.edit-mode) input[type="file"] {
+    display: none;
+  }
+
+  .form-pair label,input{
+    margin: 5px;
+  }
